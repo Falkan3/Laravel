@@ -15,6 +15,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('webworkers', function(){
+	return view('webworkers');
+});
+
 Route::get('hello/{name}', function($name){
 	echo 'Hello! How are you doing '.$name.'?';
 });
@@ -53,7 +57,6 @@ Route::get('customer_name', function(){
 	$customer = App\Customer::where('name','=','Tony')->first();
 	print_r($customer->id);
 });
-
 
 //read an item
 Route::get('test', function(){
