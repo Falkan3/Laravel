@@ -63,7 +63,7 @@ Route::get('test', function(){
 	echo '<form action="test" method="POST">';
 	echo '<input type="submit" value="submit">';
 	echo '<input type="hidden" name="_token" value="' . csrf_token() . '">';
-	echo '<input type="hidden" name="_method" value="POST">';
+	echo '<input type="hidden" name="_method" value="PUT">';
 	echo '</form>';
 });
 
