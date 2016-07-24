@@ -11,11 +11,11 @@
 |
 */
 
-Route::get('/', function () {
+Route::get('welcome', function () {
     return view('welcome');
 });
 
-Route::get('webworkers', function(){
+Route::get('/', function(){
 	return view('webworkers');
 });
 

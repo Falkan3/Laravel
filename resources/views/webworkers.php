@@ -32,7 +32,7 @@
 	    <div class="insider">
 	      <div>
 	      	<h2>Fibonacci</h2>
-	      	</p>Every second (aprox.) a new number will be attempted to be solved</p>
+	      	<p>Every second (aprox.) a new number will be attempted to be solved</p>
 	        <button class="button" type="button" id="fibonacciStart">Start</button>
 	        <button class="button_red" type="button" id="fibonacciStop">Stop</button>
 	        <p class="result">Result: </p>
